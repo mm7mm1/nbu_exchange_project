@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: nbu_laba_postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: nbu_db
+    ports:
+      - "5432:5432"
