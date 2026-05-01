@@ -20,6 +20,11 @@
 ├── requirements.txt          # Перелік Python бібліотек
 └── README.md                 # Головна документація проєкту
 ```
+
+## Візуалізація
+Для візуалізації я завантажила готову таблицю у Databricks, оскільки мені зручно працювати з їхніми дашбордами. Там створила дашборд
+![DashBoard](docs/currency_exchange_rates_dashboard.png)
+
 * Також посилання на дашборд 
 [DataBricks дашборд](https://dbc-a003dee5-a87a.cloud.databricks.com/dashboardsv3/01f1455da5d91a85b93eeeabcc9b5936/published?o=7474655757405789)
 
@@ -43,10 +48,6 @@
 - Перевіряє пропущені дати і дозавантажує їх
 - Зберігає дані у PostgreSQL
 - Експортує результат у `exchange_rates.csv`
-
-## Візуалізація
-Для візуалізації я завантажила готову таблицю у Databricks, оскільки мені зручно працювати з їхніми дашбордами. Там створила дашборд
-![DashBoard](docs/currency_exchange_rates_dashboard.png)
 
 
 ## License
