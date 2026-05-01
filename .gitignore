@@ -1,0 +1,19 @@
+# Системні файли macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python 
+venv/
+ENV/
+env/
+.venv/
+*.pyc
+__pycache__/
+
+# Конфіг
+.env
+
+# Логи та тимчасові файли
+*.log
+.pytest_cache/
