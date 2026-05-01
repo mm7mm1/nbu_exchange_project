@@ -2,20 +2,23 @@
 Скрипт завантажує офіційні курси валют НБУ (USD, EUR, GBP, UAH) з 01.01.2026 і зберігає їх у контейнері PostgreSQL.
 
 ## Опис папки
-.env - файл з паролями (але на гітхаб .gitignore його блокує, тому створила копію файла .env.example для вас, звідки треба скопіювати дані)
+.env - файл з паролями (але на гітхаб я його не вантажу. блокую через .gitignore, тому створила копію файла .env.example для вас, звідки треба скопіювати дані)
 .env.example - паролі для гітхабу (так не можна робити, знаю, то для вас)
 docker-compose.yml - скрипт створення та підключення до контейнера
-nbu_exchange.py - python скрипт
-monthly_report.sql - sql скрипт 
 exchange_rates.csv - результат, готова таблиця, записана в csv файл
 відповіді_на_додаткові_питання.txt - відповіді
 
-connecting_to_container.png 
-connecting_to_container_2.png - скріншот підʼєднання до контейнеру для написання sql запиту
+scripts/ 
+    --nbu_exchange.py - python скрипт
+    --monthly_report.sql - sql скрипт 
+docs/
+    --connecting_to_container.png 
+    --connecting_to_container_2.png - скріншот підʼєднання до контейнеру для написання sql запиту
+    --currency_exchange_rates_dashboard.png - скріншот дашборду
+    --currency_exchange_rates_dashboard2.png - скріншот дашборду, де курсором показую, що він робочий
+також посилання на дашборд 
+[![DataBricks дашборд](https://dbc-a003dee5-a87a.cloud.databricks.com/dashboardsv3/01f1455da5d91a85b93eeeabcc9b5936/published?o=7474655757405789)
 
-currency_exchange_rates_dashboard.png - скріншот дашборду
-currency_exchange_rates_dashboard2.png - скріншот дашборду, де курсором показую, що він робочий
-також посилання на дашборд https://dbc-a003dee5-a87a.cloud.databricks.com/dashboardsv3/01f1455da5d91a85b93eeeabcc9b5936/published?o=7474655757405789 
 
 ## Вимоги
 - Python 3.11+
@@ -40,3 +43,4 @@ currency_exchange_rates_dashboard2.png - скріншот дашборду, де
 
 ## Візуалізація
 Для візуалізації я завантажила готову таблицю у Databricks, оскільки мені зручно працювати з їхніми дашбордами. Там створила дашборд
+![DashBoard](docs/currency_exchange_rates_dashboard.png)
