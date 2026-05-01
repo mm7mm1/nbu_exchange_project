@@ -18,7 +18,7 @@ docs/
     --currency_exchange_rates_dashboard2.png - скріншот дашборду, де курсором показую, що він робочий
 також посилання на дашборд 
 [![DataBricks дашборд](https://dbc-a003dee5-a87a.cloud.databricks.com/dashboardsv3/01f1455da5d91a85b93eeeabcc9b5936/published?o=7474655757405789)]
-
+```
 
 ## Вимоги
 - Python 3.11+
